@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Escala RGB - Cores</title>
+    <link rel="shortcut icon" type="image/png"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Synthese%2B.svg/800px-Synthese%2B.svg.png" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <main >
+        <h1>Representação de Cores por Escala RGB</h1>
+            <div class="main">
+            <div class="picker">
+
+             <div class="linha">
+                <label for="red">Red</label> 
+                <input type="range" class="inputRange" min="0" max="255" step="1" id="red" value="115"> 
+                <input type="text" class="inputText" name="red" readonly="true" class="view"  />
+                
+            </div>
+
+            <div class="linha">
+                <label for="green">Green</label>
+                <input type="range" class="inputRange" min="0" max="255" step="1" id="green" value="10">
+                <input type="text" class="inputText" name="green" readonly="true" class="view"  /> 
+            </div>
+
+            <div class="linha">
+                <label for="blue">Blue</label> 
+                <input type="range" class="inputRange" min="0" max="255" step="1" id="blue" value="162">
+                <input type="text" class="inputText" name="blue" readonly="true" class="view" />
+            </div>   
+
+            </div>
+   
+        <div id="display"></div>
+    </div>
+    <footer>
+        IGTI - BOOTCAMP DESENVOLVEDOR FULL STACK <br />
+        Autor(a): Indiara Sá Barreto
+    </footer>
+    </main>
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>
